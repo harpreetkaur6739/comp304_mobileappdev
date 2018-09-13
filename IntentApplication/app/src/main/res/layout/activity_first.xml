@@ -10,7 +10,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is my first intent activity!"
-       />
+        android:text="This is my first intent activity!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:text="Go to Activity 2"
+        android:onClick="moveActivity"/>
 
 </LinearLayout>
