@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="hello">Using Android Resources</string>
+    <string name="display">Demonstrating Font and Color!</string>
+    <string name="app_name">Simple Resource Example</string>
+    <drawable name="redDrawable">#AA0000</drawable>
+    <string-array name="flavors">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Strawberry</item>
+        <item>Blueberry</item>
+    </string-array>
+
+</resources>
