@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HarpreetKaur_COMP304_Lab1_Ex2</string>
+    <string name="college_name">Centennial College</string>
+    <string name="campus_name">Progress Campus</string>
+    <string name="address">941 Progress Ave</string>
+    <string name="postal_code">M1G 3T8</string>
+</resources>
