@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        style="@style/menu_item_style"
+        android:id="@+id/papajohn"
+        android:title="Papa John's"
+        android:orderInCategory="1" />
+    <item
+        style="@style/menu_item_style"
+        android:id="@+id/paisano"
+        android:title="Paisano"
+        android:orderInCategory="4" />
+</menu>

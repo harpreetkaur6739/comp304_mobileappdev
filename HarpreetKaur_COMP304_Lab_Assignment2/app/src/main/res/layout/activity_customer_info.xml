@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CustomerInfoActivity">
+    tools:context=".CustomerInfoActivity"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView2"
@@ -28,9 +29,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="55dp" />
+        tools:layout_editor_absoluteY="55dp"
+        android:maxLength="20"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -63,7 +64,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="Name"
         tools:layout_editor_absoluteX="153dp"
         tools:layout_editor_absoluteY="257dp" />
 
@@ -93,12 +93,11 @@
         tools:layout_editor_absoluteY="418dp" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/txtCvv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="Name"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="391dp" />
 
@@ -111,7 +110,7 @@
         tools:layout_editor_absoluteY="190dp" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/txtPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -120,19 +119,21 @@
         tools:layout_editor_absoluteY="186dp" />
 
     <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:onClick="goBack"/>
+
+    <Button
         android:id="@+id/btnOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Order"
         tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="447dp" />
+        tools:layout_editor_absoluteY="447dp"
+        android:onClick="placeOrder"/>
 
-    <Button
-        android:id="@+id/btnGoBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go Back"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="447dp" />
 
-</android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

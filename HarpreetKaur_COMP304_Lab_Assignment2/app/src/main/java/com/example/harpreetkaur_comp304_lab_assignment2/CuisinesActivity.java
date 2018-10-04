@@ -24,10 +24,15 @@ public class CuisinesActivity extends Activity {
             RadioButton rdbCuisine = (RadioButton) findViewById(checkedId);
 
             Intent intent = new Intent(this, FoodMenuActivity.class);
-            intent.putExtra("cuisineId",rdbCuisine.getId());
+            intent.putExtra("cuisineId",rdbCuisine.getText());
+
             startActivity(intent);
         }else {
             Toast.makeText(getApplicationContext(), "Please select a cuisine first!", Toast.LENGTH_LONG).show();
         }
+    }
+    public void goBack(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

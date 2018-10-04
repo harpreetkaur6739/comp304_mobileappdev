@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        style="@style/menu_item_style"
+        android:id="@+id/stlouis"
+        android:title="St.Louis Bar"
+        android:orderInCategory="1" />
+    <item
+        style="@style/menu_item_style"
+        android:id="@+id/mcd"
+        android:title="McDonalds"
+        android:orderInCategory="4" />
+</menu>

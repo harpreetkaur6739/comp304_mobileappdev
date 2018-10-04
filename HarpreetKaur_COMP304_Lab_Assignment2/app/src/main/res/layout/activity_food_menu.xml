@@ -14,5 +14,24 @@
         android:text="Build your Order"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="29dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/menuLayout"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:onClick="goBack"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="goToCustomerInfo"/>
 
 </LinearLayout>

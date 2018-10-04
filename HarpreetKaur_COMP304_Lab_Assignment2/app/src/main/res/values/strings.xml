@@ -1,3 +1,55 @@
 <resources>
-    <string name="app_name">HarpreetKaur_COMP304_Lab_Assignment2</string>
+    <string name="app_name">Order Food</string>
+    <string name="app_cuisines">Cuisines</string>
+    <string name="app_customer">Customer Info</string>
+    <string name="app_checkout">Checkout</string>
+    <string name="app_menu">Restaurants Menu</string>
+    <string-array name="tandoori_menu">
+        <item>Chicken Biryani</item>
+        <item>Paneer Tikka Masala</item>
+        <item>Chana Masala</item>
+        <item>Mix Veg</item>
+    </string-array>
+    <string-array name="brar_menu">
+        <item>Chole Bhathure</item>
+        <item>Paav Bhaji</item>
+        <item>Masala Dosa</item>
+        <item>Bhel Puri</item>
+    </string-array>
+    <string-array name="stlouis_menu">
+        <item>Chicken Wings</item>
+        <item>Poutine</item>
+        <item>Fries</item>
+        <item>Nachos</item>
+    </string-array>
+    <string-array name="mcd_menu">
+        <item>Croissant</item>
+        <item>Bagel</item>
+        <item>Chicken Burger</item>
+        <item>Pop</item>
+    </string-array>
+    <string-array name="hakka_menu">
+        <item>Fried Rice</item>
+        <item>Manchurian</item>
+        <item>Shrimp Rice</item>
+        <item>Monchow Soup</item>
+    </string-array>
+    <string-array name="mandarin_menu">
+        <item>Hot &amp; Sour Soup</item>
+        <item>Fried Rice</item>
+        <item>Bombay Chicken</item>
+        <item>Shrimp Rice</item>
+    </string-array>
+    <string-array name="papajohn_menu">
+        <item>Chicken Pasta</item>
+        <item>Spaghetti</item>
+        <item>Pop</item>
+        <item>Shrimp Pasta</item>
+    </string-array>
+    <string-array name="paisano_menu">
+        <item>Mix Veg Pasta</item>
+        <item>Chicken Pasta</item>
+        <item>Chicken Spaghetti</item>
+        <item>Pop</item>
+    </string-array>
 </resources>

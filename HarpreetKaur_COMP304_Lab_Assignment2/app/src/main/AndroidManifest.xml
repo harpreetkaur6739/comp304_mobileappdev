@@ -16,10 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CuisinesActivity" />
-        <activity android:name=".CustomerInfoActivity" />
-        <activity android:name=".CheckOutActivity" />
-        <activity android:name=".FoodMenuActivity"></activity>
+        <activity
+            android:name=".CuisinesActivity"
+            android:label="@string/app_name"
+            android:theme="@style/menu_item_style" />
+        <activity
+            android:name=".FoodMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/menu_item_style" />
+        <activity
+            android:name=".CustomerInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CheckOutActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".FinishOrderActivity"></activity>
     </application>
 
 </manifest>
